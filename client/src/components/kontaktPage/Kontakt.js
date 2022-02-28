@@ -36,7 +36,7 @@ const Kontakt = () => {
       else {
         setSent(true)
         try {
-            await axios.post('https://serverphotoapp.herokuapp.com/', {
+            await axios.post('http://localhost:5000', {
                 text: text,
                 subjectEmailSender: subjectEmailSender
             })
