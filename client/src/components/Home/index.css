@@ -1,0 +1,50 @@
+.mainPageBlock {
+    background-color: #000;
+}
+
+.morePhoto {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.openPhotoOnThePhone {
+    color: #fff;
+    margin: 25px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.instIcon {
+    margin-left: 20px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+border-radius: 7px;
+}
+
+.instIcon {
+    margin-left: 20px;
+    color: #fff;
+}
+
+
+@media (max-width: 991px) {
+    .openPhotoOnThePhone {
+        opacity: 1;
+    }
+}

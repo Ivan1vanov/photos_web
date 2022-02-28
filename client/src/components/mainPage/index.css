@@ -1,0 +1,335 @@
+
+.mainPage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../../publick/gif/background_main_page.gif) 50% 50%/cover no-repeat;
+    z-index: -1;
+
+}
+
+.signAutor {
+    width: 200px;
+    /* position: absolute; */
+    right: 0;
+    bottom: 5px;
+}
+
+.helloNadia {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.whoAmI {
+    background-color: rgba(0, 0, 0, 0.561);
+    width: 40%;
+    height: 80%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.textInfo {
+    position: relative;
+    margin-top: 20%;
+    padding-left: 10%;
+}
+
+.descriptionIngo {
+    width: 80%;
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+
+
+.autorPhoto {
+    width: 40%;
+    height: 80%;
+    background: url(../../publick/img/mainAvatar.jpg)  50% 50%/cover no-repeat;
+    transition: all 3s ease;
+}
+
+/* .autorPhoto:hover {
+    width: 40%;
+    height: 80%;
+    background: url(../../publick/img/mainAvatar.jpg) 80% 80%/cover no-repeat;
+} */
+
+@media (max-width: 991px){
+    .mainPage {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: url(../../publick/gif/background_main_page.gif) 50% 50%/cover no-repeat;
+        z-index: -1;
+        scroll-behavior: auto;
+    
+    }
+
+    .signAutor {
+        width: 200px;
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+    }
+    .helloNadia {
+        width: 100%;
+        height: 100%;
+      
+       display: flex;
+       flex-direction: column; 
+    
+    }
+    .helloNadia {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .whoAmI {
+        background-color: rgba(0, 0, 0, 0.561);
+        scroll-behavior: auto;
+        height: 60%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .textInfo {
+        margin: 20% 0;
+        padding-left: 10%;
+    }
+    
+    .descriptionIngo {
+        /* width: 80%;
+        margin-top: 40px;
+      
+        line-height: 30px; */
+        font-size: 19px;
+    }
+
+    .autorPhoto {
+        width: 100%;
+        height: 40%;
+        background: url(../../publick/img/mainAvatar.jpg) 80% 80%/cover no-repeat;
+    }
+/* 
+    .autorPhoto:hover {
+        width: 100%;
+        height: 100vh;
+        background: url(../../publick/img/mainAvatar.jpg) 50% 50%/cover no-repeat;
+    } */
+
+  }
+  @media (max-width: 768px){
+
+    .mainPage {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: url(../../publick/gif/background_main_page.gif) 50% 50%/cover no-repeat;
+        z-index: -1;
+        scroll-behavior: auto;
+    
+    }
+
+    .signAutor {
+        width: 200px;
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+    }
+    .helloNadia {
+        width: 100%;
+        height: 100%;
+      
+       display: flex;
+       flex-direction: column; 
+    
+    }
+    .helloNadia {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .whoAmI {
+        background-color: rgba(0, 0, 0, 0.561);
+        scroll-behavior: auto;
+        height: 60%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .textInfo {
+        margin: 20% 0;
+        padding-left: 10%;
+    }
+    
+    .descriptionIngo {
+        /* width: 80%;
+        margin-top: 40px;
+      
+        line-height: 30px; */
+        font-size: 19px;
+    }
+
+    .autorPhoto {
+        width: 100%;
+        height: 40%;
+        background: url(../../publick/img/mainAvatar.jpg) 80% 80%/cover no-repeat;
+    }
+   
+    /* .mainPage {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: url(../../publick/gif/Pexels\ Videos\ 2795400_5.gif) 50% 50%/cover no-repeat;
+    }
+
+    .contactComponents  {
+        display: flex;
+    }
+
+    .signAutor {
+        width: 200px;
+        position: relative;
+        right: 0;
+        bottom: 5px;
+    }
+
+    .helloNadia {
+        width: 100%;
+        height: 100%;
+      
+       display: flex;
+       flex-direction: column; 
+    
+    }
+    .helloNadia {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .whoAmI {
+        background-color: rgba(0, 0, 0, 0.561);
+        padding-top: 70px;
+        height: 40%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .textInfo {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        padding-left: 10%;
+    }
+    
+    .descriptionIngo {
+        width: 80%;
+        margin-top: 40px;
+      
+        line-height: 30px;
+        font-size: 12px;
+    }
+
+    .autorPhoto {
+        width: 100%;
+        background: url(../../publick/img/mainAvatar.jpg) 50% 50%/cover no-repeat;
+    } */
+
+    
+  }
+  @media (max-width: 530px){
+    .mainPage {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: url(../../publick/gif/background_main_page.gif) 50% 0/cover no-repeat;
+        z-index: -1;
+        scroll-behavior: auto;
+    
+    }
+
+    .signAutor {
+        width: 200px;
+        position: absolute;
+        right: 0;
+        bottom: 5px;
+    }
+    .helloNadia {
+        width: 100%;
+        height: 100%;
+      
+       display: flex;
+       flex-direction: column; 
+    
+    }
+    .helloNadia {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .whoAmI {
+        background-color: rgba(0, 0, 0, 0.561);
+        position: fixed;
+        top: 0;
+        right: 0;
+        scroll-behavior: auto;
+        height: 100%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .textInfo {
+        margin: 20% 0;
+        padding-left: 10%;
+    }
+    
+    .descriptionIngo {
+        /* width: 80%;
+        margin-top: 40px;
+      
+        line-height: 30px; */
+        font-size: 19px;
+    }
+
+    .autorPhoto {
+        display: hide;
+        background: none;
+    }
+
+
+  }

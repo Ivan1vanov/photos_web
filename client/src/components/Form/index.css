@@ -1,0 +1,23 @@
+.mainBlock {
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonSubmit {
+    max-width: 200px;
+}
+
+.root {
+   
+}
+
+.customPaper {
+    display: flex;
+}
+
+
+.form {
+    display: 'flex';
+  
+}
